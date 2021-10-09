@@ -1,0 +1,11 @@
+.header__link-container{
+    text-decoration: none;
+    width: 10%;
+    display: flex;
+
+    flex-wrap: nowrap;
+    align-items: end;
+    justify-content: end;
+    font-weight: 400;
+    color: #ffffff;
+}

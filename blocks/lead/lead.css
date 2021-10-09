@@ -1,0 +1,23 @@
+.lead{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin: 56px auto 0 auto;
+    width: 100%;
+    max-width: 984px;
+    height: 14.6%;
+    max-height: 1005px;
+    color: white;
+}
+
+@media  (max-width: 1024px) {
+    .photo-grid{
+        margin: 48px auto 0 auto;
+        width: 93.5%;
+        max-width: 1184px;
+        display: grid;
+        gap: 14px;
+        grid-template-columns: repeat( auto-fit, minmax(280px, 1fr) );
+    } 
+}
