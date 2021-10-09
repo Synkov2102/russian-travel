@@ -1,0 +1,26 @@
+.intro{
+    align-self: start;
+    width: 54.6%;
+    margin: 7.28% auto 0 11.7%;
+    color: white;
+}
+
+@media  (max-width: 1024px) {
+    .intro{
+        align-self: start;
+        width: 54.6%;
+        margin: 7.28% auto 0 30px;
+        color: white;
+    }
+    
+}
+
+@media  (max-width: 768px) {
+    .intro{
+        align-self: start;
+        width: 90%;
+        margin: 7.28% auto 0 18px;
+        color: white;
+    }
+    
+}
