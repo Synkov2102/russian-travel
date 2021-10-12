@@ -3,17 +3,20 @@
     display: flex;
     justify-content: space-between;
     width: 93.671%;
-    height: 18px;
+    max-width: 1184px;
     color: white;
+}
+
+@media  (max-width: 768px) {
+    .footer{
+        margin: 88px auto 24px auto;
+    }
 }
 
 @media  (max-width: 767px) {
     .footer{
         margin: 64px auto 24px auto;
-        display: flex;
         flex-direction: column;
-        width: 93.671%;
         height: 3.1%;
-        color: white;
     }
 }

@@ -1,26 +1,31 @@
 .intro{
     align-self: start;
     width: 54.6%;
-    margin: 7.28% auto 0 11.7%;
+    max-width: 690px;
+    margin: 92px auto 0 148px;
     color: white;
 }
 
 @media  (max-width: 1024px) {
     .intro{
-        align-self: start;
-        width: 54.6%;
-        margin: 7.28% auto 0 30px;
-        color: white;
+        width: 690px;
+        margin: 92px auto 0 48px;
     }
     
 }
 
 @media  (max-width: 768px) {
     .intro{
-        align-self: start;
+        width: 93.75%;
+        margin: 88px auto 0 auto;
+    }
+    
+}
+
+@media  (max-width: 320px) {
+    .intro{
         width: 90%;
-        margin: 7.28% auto 0 18px;
-        color: white;
+        margin: 64px auto 0 auto;
     }
     
 }

@@ -1,6 +1,6 @@
 .header__link-container{
     text-decoration: none;
-    width: 10%;
+    width: auto;
     display: flex;
 
     flex-wrap: nowrap;
