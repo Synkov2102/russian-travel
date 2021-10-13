@@ -2,7 +2,6 @@
     margin: 92px auto 0 auto;
     position: relative;
     width: 92.5%;
-    height: 57.813vw;
     max-height: 740px;
     max-width: 1184px;
     display:flex;
@@ -12,9 +11,7 @@
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     color: white;
-    
 }
-
 
 @media (max-width: 1024px){
     .cover{
@@ -33,7 +30,8 @@
 
 @media (max-width: 320px){
     .cover{
+
         width:100%;
-        margin: 99px auto 0 auto;
+        margin: 66px auto 0 auto;
     }
 }

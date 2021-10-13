@@ -9,7 +9,7 @@
     line-height: 1.06;
 }
 
-@media  (max-width: 768px) {
+@media  (max-width: 875px) {
     .place__title{
         font-size: 42px;
         line-height: 1.1;
