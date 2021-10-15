@@ -16,7 +16,6 @@
 
 @media  (max-width: 670px) {
     .lead__title {
-        width: 90%;
         font-size: 40px;
         line-height: 1.1;
     }
